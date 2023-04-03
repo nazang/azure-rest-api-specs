@@ -8,6 +8,11 @@
   },
   "responses": {
     "200": {},
+    "202": {
+      "headers": {
+        "Azure-AsyncOperation": "https://management.azure.com/subscriptions/subid/providers/Microsoft.Cache/...pathToOperationStatus..."
+      }
+    },
     "204": {}
   }
 }
